@@ -21,7 +21,7 @@ A script designed to remind yourself to take a break after a period of continuou
 2. 修改powershell脚本执行策略
 Windows系统默认不允许任何脚本语言运行，需要以管理员身份运行powershell，输入并执行`set-ExecutionPolicy RemoteSigned`，作用是使Windows支持执行本地powershell脚本；
 3. 下载项目包并修改相关路径 
-* 下载项目到本地，修改“HealthEnhance.ps1”文件中的`New-BurntToastNotification -AppLogo "C:\Users\yudon\AppData\Local\Programs\HealthEnhance\HealthEnhance.png" -Text "提醒", '已连续工作1小时，休息一下吧！'# 弹出提醒“休息一下吧”，持续5秒后消失`中的“C:\Users\yudon\AppData\Local\Programs\HealthEnhance\HealthEnhance.png”替换成你自己存放的文件路径；
+* 下载项目到本地，修改“HealthEnhance.ps1”文件中的`New-BurntToastNotification -AppLogo "C:\Users\yudon\AppData\Local\Programs\HealthEnhance\HealthEnhance.png" -Text "提醒", '已连续工作1小时，休息一下吧！'# 弹出提醒“休息一下吧”，持续5秒后消失`中的“C:\Users\yudon\AppData\Local\Programs\HealthEnhance\HealthEnhance.png”替换成你自己存放的文件路径（提醒文字和图标都可以灵活修改）；
 * 修改“HideRunHE.vbs”文件中的`objShell.Run "powershell.exe C:\Users\yudon\AppData\Local\Programs\HealthEnhance\HealthEnhance.ps1",0`中的“C:\Users\yudon\AppData\Local\Programs\HealthEnhance\HealthEnhance.ps1”替换成你自己存放的文件路径；
 4. 创建快捷方式
 为“HideRunHE.vbs”文件右键创建快捷方式，然后将快捷方式移动到“C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Startup\”目录下；
