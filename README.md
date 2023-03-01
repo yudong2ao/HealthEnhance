@@ -31,3 +31,5 @@ Windows系统默认不允许任何脚本语言运行，需要以管理员身份�
 ## 灵活修改
 目前是连续工作60分钟进行提醒，中断工作5分钟影响连续工作时间的计时，可以按照自己的想法修改`$IdleLimit = 300 # 空闲时间限制（秒）
 $WorkLimit = 3600 # 工作时间限制（秒）`；
+![alt text](![image](https://user-images.githubusercontent.com/59545510/222151150-a19972b1-c519-420e-a497-8e0c4deb0a2b.png)
+)
