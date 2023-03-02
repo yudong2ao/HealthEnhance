@@ -1,5 +1,5 @@
 # HealthEnhance
-A script designed to remind yourself to take a break after a period of continuous work
+A script designed to remind yourself to take a break after a period of continuous work/旨在连续工作一段时间后自动进行休息提醒的脚本
 ## 前言
 我经常在工位上一坐就是一个上午，一个下午，这对健康是非常不好的，特别是成年男性的前列腺健康和尿路健康深受此害，可能我真的太过专注了吧😁，我开始寻找一个“能够在我连续工作一段时间后提醒我休息一下的程序”，可惜的是，大部分的程序只是傻傻的定时提醒，不能检测我是否连续工作了一段时间，所以我试着去自己写一个出来，所以便有了它。
 
