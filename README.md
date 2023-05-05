@@ -11,7 +11,8 @@ A script designed to remind yourself to take a break after a period of continuou
 2. 连续工作达到60分钟时，系统弹窗提醒休息，弹窗显示五秒自动隐藏，然后自动进入下一个连续工作60分钟的计时；
 3. 中断工作不足5分钟，不影响连续工作60分钟的计时，中断工作超过5分钟，连续工作60分钟的计时从零开始；
 ---
-![image](https://user-images.githubusercontent.com/59545510/222153715-7288654d-c82f-410c-8d30-a99477145bbd.png)
+![image](https://user-images.githubusercontent.com/59545510/236426681-00b282b5-c3fd-455b-b7a6-ab60a2043925.png)
+
 
 ## 特点
 1. 极简，资源占用低————使用powershell脚本，无前端页面，调用系统API，执行效率高，代码行不过百；
